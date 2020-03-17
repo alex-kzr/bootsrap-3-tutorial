@@ -1,0 +1,10 @@
+.test{
+    background: #eee;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.first-cont, .second-cont{
+    background: #bbb;
+    margin: 30px auto;
+} 
