@@ -4,7 +4,20 @@
     max-width: 1200px;
 }
 
-.first-cont, .second-cont{
-    background: #bbb;
-    margin: 30px auto;
-} 
+.content{
+    background: #ddd;
+}
+
+.sidebar{
+    background: #ccc;
+}
+
+.thumb{
+    background: #ddd;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.thumb:nth-child(even){
+    background: #ccc;
+}
