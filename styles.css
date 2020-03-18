@@ -4,20 +4,6 @@
     max-width: 1200px;
 }
 
-.thumb{
-    padding: 30px 15px;
-    text-align: center;
-    background: #ddd;
-}
-
-.thumb:nth-child(odd){
-    clear: both;
-}
-
-.thumb:nth-child(even){
-    background: #ccc;
-}
-
 .row{
     margin-top: 20px;
 }
