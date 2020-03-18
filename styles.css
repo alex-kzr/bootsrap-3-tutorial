@@ -13,3 +13,7 @@
 .thumb:nth-child(even){
     background: #ccc;
 }
+
+.row{
+    margin-top: 20px;
+}
