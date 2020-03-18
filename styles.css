@@ -10,6 +10,10 @@
     background: #ddd;
 }
 
+.thumb:nth-child(odd){
+    clear: both;
+}
+
 .thumb:nth-child(even){
     background: #ccc;
 }
