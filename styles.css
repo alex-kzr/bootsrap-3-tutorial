@@ -5,9 +5,11 @@
 }
 
 .row{
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
-
-
- 
+span{
+    width: 40%;
+    padding: 20px;
+    background: pink;
+} 
