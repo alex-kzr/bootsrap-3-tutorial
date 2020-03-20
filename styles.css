@@ -1,5 +1,5 @@
 #content{
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 .navbar{
@@ -8,4 +8,9 @@
 
 #register{
     margin-left: 10px;
+}
+
+.jumbotron{
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
