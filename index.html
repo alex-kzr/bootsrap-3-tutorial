@@ -11,29 +11,26 @@
     <div class="test">
         <h1>Bootstrap Tutorial</h1>
         <div class="container-fluid">
-            <div class="row">
-                
-                <div class="col-xs-12 col-sm-3 hidden-xs">
-                    <img src="img/1.jpg" class="img-responsive center-block">
-                </div>
-                <div class="col-xs-12 col-sm-3 visible-xs">
-                    <img src="img/2.jpg" alt="" class="img-responsive center-block">
-                </div>
-                <div class="col-xs-12 col-sm-3 visible-md">
-                    <img src="img/3.jpg" alt="" class="img-responsive center-block">
-                </div>
-                <div class="col-xs-12 col-sm-3 hidden-lg">
-                    <img src="img/4.jpg" alt="" class="img-responsive center-block">
-                </div>
+           
+            <div class="dropdown">
+
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    Meats <div class="caret"></div>
+                </button>
+
+                <ul class="dropdown-menu">
+                    <li class="dropdown-header">Meaty</li>
+                    <li><a href="">Ham</a></li>
+                    <li class="disabled"><a href="">Sause</a></li>
+                    <li><a href="">Spicy Chicken</a></li>
+                    <li><a href="">Salami</a></li>
+                    <li class="dropdown-header">Veggie</li>
+                    <li><a href="">Quorn</a></li>
+                    <li><a href="">Tofu</a></li>
+                </ul>
 
             </div>
-
-            <div class="row">
-                <div class="col-xs-12">
-                    <span class="visible-md-inline-block">YAY</span>
-                    <span class="visible-md-inline-block">YAY</span>
-                </div>
-            </div>
+               
 
         </div>
     </div>

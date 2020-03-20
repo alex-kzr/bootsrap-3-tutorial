@@ -2,14 +2,19 @@
     background: #eee;
     margin: 0 auto;
     max-width: 1200px;
+    padding: 20px 20px;
+    
+}
+
+.container-fluid{
+    padding: 0 0;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .row{
     margin: 20px 0;
 }
-
-span{
-    width: 40%;
-    padding: 20px;
-    background: pink;
-} 
