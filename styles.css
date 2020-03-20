@@ -7,8 +7,12 @@
     margin-bottom: 0;
 }
 
-#register{
+#register, #inbox{
     margin-left: 10px;
+}
+
+.badge{
+    background: #d9534f;
 }
 
 .jumbotron{
