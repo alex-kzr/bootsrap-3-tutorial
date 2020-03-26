@@ -15,3 +15,7 @@ $(function(){
 $(function(){
     $('[data-toogle="tooltip"]').tooltip();
 });
+
+$('#mymodal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus');
+});
