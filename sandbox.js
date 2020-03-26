@@ -11,3 +11,7 @@ $(function(){
         keyboard: true
     });
 });
+
+$(function(){
+    $('[data-toogle="tooltip"]').tooltip();
+});
